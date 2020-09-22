@@ -90,7 +90,7 @@ font-family: "Opensans", sans-serif;
     color:white;
     padding-left:50px;
 }
-.collapse > ul > li{
+.collapse ul li a{
     font-size:18px;
 }
 
