@@ -18,6 +18,10 @@ font-family: "Opensans", sans-serif;
 
 .menu-title{
     text-decoration:none;
+    color:black;
+}
+.menu-title:hover{
+    text-decoration:none;
 }
 
 .caret {
