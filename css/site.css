@@ -11,9 +11,13 @@ font-family: "Opensans", sans-serif;
     overflow-x: hidden;
 }
 
-#main, #main-content {
+#main{
   transition: margin-left .5s;
   padding: 16px;
+}
+
+#main-content {
+    transition: margin-left .5s;
 }
 
 .menu-title{
