@@ -35,6 +35,15 @@ font-family: "Opensans", sans-serif;
     border-left: 4px solid transparent;
 }
 
+#main-content {
+    margin-left:0;
+}
+
+.sidebar-heading {
+    margin-left:auto;
+    margin-right:auto;
+}
+
 #sidebar-wrapper {
   min-height: 100vh;
   margin-left: -15rem;
