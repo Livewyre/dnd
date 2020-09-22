@@ -16,6 +16,10 @@ font-family: "Opensans", sans-serif;
   padding: 16px;
 }
 
+.menu-title{
+    text-decoration:none;
+}
+
 #sidebar-wrapper {
   min-height: 100vh;
   margin-left: -15rem;
