@@ -34,6 +34,10 @@ font-family: "Opensans", sans-serif;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
 }
+.col-sm-12 {
+    padding-left:20%;
+    padding-right:20%;
+}
 
 #main-content {
     margin-left:0;
