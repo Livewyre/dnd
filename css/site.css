@@ -90,7 +90,7 @@ font-family: "Opensans", sans-serif;
     color:white;
     padding-left:50px;
 }
-.collapse {
+.collapse .list-group-item {
     font-size:18px;
 }
 
