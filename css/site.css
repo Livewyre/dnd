@@ -11,7 +11,7 @@ font-family: "Opensans", sans-serif;
     overflow-x: hidden;
 }
 
-#main {
+#main, #main-content {
   transition: margin-left .5s;
   padding: 16px;
 }
