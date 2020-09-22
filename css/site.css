@@ -20,6 +20,17 @@ font-family: "Opensans", sans-serif;
     text-decoration:none;
 }
 
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
 #sidebar-wrapper {
   min-height: 100vh;
   margin-left: -15rem;
@@ -70,7 +81,7 @@ font-family: "Opensans", sans-serif;
 #sidebar-wrapper .list-group {
   width: 15rem;
 }
-.list-group-item {
+.collapse .list-group-item {
   background-color:transparent;
     color:white;
     padding-left:50px;
