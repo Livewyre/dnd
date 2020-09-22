@@ -90,8 +90,12 @@ font-family: "Opensans", sans-serif;
     color:white;
     padding-left:50px;
 }
-.collapse ul li a{
-    font-size:18px;
+.panel-collapse ul .list-group-item a{
+    font-size:18px!important;
+}
+
+.panel-collapse ul .list-group-item{
+    padding:0!important;
 }
 
 #page-content-wrapper {
