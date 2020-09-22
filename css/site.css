@@ -81,11 +81,15 @@ font-family: "Opensans", sans-serif;
 #sidebar-wrapper .list-group {
   width: 15rem;
 }
-.collapse .list-group-item {
+.list-group-item {
   background-color:transparent;
     color:white;
     padding-left:50px;
 }
+.collapse {
+    font-size:18px;
+}
+
 #page-content-wrapper {
   min-width: 100vw;
 }
