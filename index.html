@@ -77,16 +77,16 @@ body {
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <ul>
-      <li>
-        <a href="/dmadvice" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">DM Advice<span class="caret">&nbsp;</span>
-        </a>
+      <li><a data-toggle="collapse" href="#collapse1">DM Advice</a>
+        <div id="collapse1" class="panel-collapse collapse">
+        <ul class="list-group">
+          <li class="list-group-item">One</li>
+          <li class="list-group-item">Two</li>
+          <li class="list-group-item">Three</li>
+        </ul>
+      </div>
       </li>
-    <ul class="dropdown-menu">
-      <li class="">
-        <a href="/">-</a>
-      </li>
-    </ul>
-     <li><a href="/dmtools" class="list-group-item list-group-item-action bg-light">DM Tools</a></li>
+      <li><a href="/dmtools" class="list-group-item list-group-item-action bg-light">DM Tools</a></li>
       <li><a href="/adventureratings" class="list-group-item list-group-item-action bg-light">Adventure Ratings</a></li>
       <li><a href="/systems" class="list-group-item list-group-item-action bg-light">Systems</a></li>
       <li><a href="/recommendations" class="list-group-item list-group-item-action bg-light">Recommendations</a></li>
