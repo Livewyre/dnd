@@ -68,6 +68,8 @@ font-family: "Opensans", sans-serif;
 }
 .list-group-item {
   background-color:transparent;
+    color:white;
+    padding-left:25px;
 }
 #page-content-wrapper {
   min-width: 100vw;
