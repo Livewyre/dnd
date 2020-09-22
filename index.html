@@ -83,23 +83,6 @@ body {
   <a href="#">Contact</a>
 </div>
 
-<div id="main">
-  <h2>Sidenav Push Example</h2>
-  <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-</div>
-
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
-</script>
       <!--<div class="list-group list-group-flush">
         
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
@@ -146,7 +129,9 @@ function closeNav() {
     <div id="page-content-wrapper">
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <button class="btn btn-primary" id="menu-toggle">Menu</button>
+        <div id="main">
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+        </div>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -194,5 +179,17 @@ function closeNav() {
   </script>
 
 </body>
+<footer>
+  <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
 
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+  </footer>
 </html>
