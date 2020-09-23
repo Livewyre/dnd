@@ -24,7 +24,7 @@ font-family: "Opensans", sans-serif;
 
 /*Header----------------------------------------------*/
 #main {
-    colo:white;
+    color:white;
 }
 
 #main, #main-content{
@@ -64,7 +64,7 @@ font-family: "Opensans", sans-serif;
 }
 
 #side-bar-1 {
-    transition: opacity ease 0.8s;
+    transition: opacity ease 1.2s;
 }
 
 #sidebar-wrapper {
