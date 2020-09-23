@@ -39,7 +39,7 @@ font-family: "Opensans", sans-serif;
     padding-right:20%;
 }
 #side-bar-1 {
-    transition: opacity .8 ease-out;
+    transition: opacity ease 0.8s;
 }
 
 #main-content {
