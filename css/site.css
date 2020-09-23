@@ -64,7 +64,8 @@ font-family: "Opensans", sans-serif;
 }
 
 #side-bar-1 {
-    transition: opacity ease 1.2s;
+    transition: opacity ease-in 0.8s;
+    transition: opacity ease-out 0.15s;
 }
 
 #sidebar-wrapper {
