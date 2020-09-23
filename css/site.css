@@ -38,14 +38,18 @@ font-family: "Opensans", sans-serif;
     padding-left:20%;
     padding-right:20%;
 }
+#side-bar-1 {
+    transition: opacity .25s ease-out;
+}
 
 #main-content {
     margin-left:0;
 }
 
-.sidebar-heading {
+.menu-logo {
     margin-left:auto;
     margin-right:auto;
+    max-height:80px;
 }
 
 #sidebar-wrapper {
