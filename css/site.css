@@ -39,7 +39,7 @@ font-family: "Opensans", sans-serif;
     padding-right:20%;
 }
 #side-bar-1 {
-    transition: opacity .25s ease-out;
+    transition: opacity .8 ease-out;
 }
 
 #main-content {
@@ -49,6 +49,8 @@ font-family: "Opensans", sans-serif;
 .menu-logo {
     margin-left:auto;
     margin-right:auto;
+}
+.menu-logo img {
     max-height:80px;
 }
 
